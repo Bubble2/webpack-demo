@@ -1,0 +1,11 @@
+module.exports={
+    entry:{
+        bundle1:['./main1.js','./a.js'],
+        bundle2:'./main2.js',
+        bundle2:'./main3.js'
+    },
+    devtool:'cheap-module-eval-source-map',
+    output:{
+        filename:'[name].js'
+    }
+}
